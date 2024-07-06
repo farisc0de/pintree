@@ -6,31 +6,10 @@
     "title": "Favorites bar",
     "children": [
       {
-        "type": "link",
-        "addDate": 1661377393,
-        "title": "Netflix",
-        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABw0lEQVQ4jYWRsU4UYRSFv3NndlgQWCEhBGNhSbTU2tgRY+3jGHwgC02MhFiosbEwFBKxpDFuglFcVsWFnXssdiRh2ODpzp+c83/3XgBeQQmwUy4++lEt+0u15H61tLcPXYDtanHrRafnl52en5WLmwCPm0wAvGGiz6RGMjajEq0XZe8ugFKBzTQFwOvGDDP1LU2BshKqpIcAxlhT85OCe42ZifBXm7FcHNt2xIP30KvhRNMBJgX/NAMakgxsJdSzsLZS9DaGmT9LPHWIOG8CI/qZLoRlfKXQ/SNcJ5IMeVnBmKQr0Sc1MsVvTCo2anP7l52hVqBdkAQdmT/GBxNgp722rFgfkuOC/xAAYFEJ9uuzD/NGRI4s4OIWom1qYB6Vh5mfQuoDWo2gCzpFRIuhNQKkYU6E8E44t2cRXVGvKTyyKVvQFwgsKMALoeKo9paFaqNrEbIhLyMwadmMkRYi5r/Xg+1j6AcUVyUvSIxaiwiAm2ePAZItsoDOHRhE+vms5MKMVySfNAQfm0wA7IHODmmrMlHYFcDI+cQmgO6qQnM5gb7VZM4RGPIUDhPvhvUB4N148PYUPy3FbpjD6xEJsNlk/gK5ct0997ud1wAAAABJRU5ErkJggg==",
-        "url": "https://www.netflix.com/browse"
-      },
-      {
-        "type": "link",
-        "addDate": 1681089401,
-        "title": "Subscriptions - YouTube",
-        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABx0lEQVQ4jZ2TQWtTQRDHfzO7yUsNKSG0heJJ0YKnCvVSkHrV7+BBeu7Vk9+lH8CLN6EXk4Lo1V48lGClFBELGmmSmr73djy8fS8vll4c+LO7s7OzM///LhQmBmrg+uDtZrgIBQQAKyf/YQbiBexFt9t9niSP7ji3umrW7og0UfWL0ZaOzGYjmBxn2c/BdPpJxuNz+vDwFxxnqmaqZs4V8L5AuS6haqmqXcDpO3jCEN4YmEFmkMcxrSCSGqSh8GcGIY52Am91Ce5HJ5EYBRwbG45222HmUHVS+DX2DhASuKu3oAeolGSqCiDs7gqHh8L2thCCxOQSbxFAO9BToClzNQSJokwmsLUFgwHs78P6eklnlQho6c0axUKbTVhZgUYjHpeqCwE8kMWFxYNF9uVlGA5hbw8ODuqJzajqnPENPtfYDxU2N4OtrRVzkVDfC0V8/h2G/g98AR7ESkJF8tFRcYdzkOf15iRW6y/hlD48voCz+BbmELFrvhrG8OMjPBOAV3D7qXM791R73Var00qSJRoNTyifB5Dn+eVsNv19dTX+mmWj93n+4SWciM1LKkmqy7RoImFBqPqPfH39K7t/4A18f74nAH8Bjm35s3ZkOjEAAAAASUVORK5CYII=",
-        "url": "https://www.youtube.com/feed/subscriptions"
-      },
-      {
-        "type": "link",
-        "addDate": 1681506470,
-        "title": "Resource Search | Scrum.org",
-        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACeElEQVQ4jaWSW0hUURiF17/POTOTmfhQ43jFBzOIEDEhCEsZi3KMFILBIfApJQRlMiKJ6FHsRQeMyAopMrFpXgozk/GSiIFIhEUJ+ZR5ycwsL3M5c/bfiyODZQStl71hbz7W/69FzEz4D6nRS9Ldp1YFqhtABlj6JIspRdOXk/W0+fHqg5HtAAIAMm+/sCmstDOTKs1q9c6g0qPqoVlIU8b0ju/29MevLH8FhMhoApFVCGP4i+VH8GNtSXhGWlaTx6bH9vU9m4j/8O7ocVdd7onKS3FbAcTMlHqnx8+gxNmqknwAcDqdYtGckrU7NDv1DWk2cMjNQsuTCuUS082QgcZRb3Nw0wEDWQSeiFK/aqkVwsCy1+uV/d7m2fclp3sGHnmOsUQBEZdbVB467Ky3bAI2zjgAsDvd2dLAa3+nZwEA0tu6sygiKwDgZVfLpND0IgBWs+DGWAdeCZQndQzmaMG1MMiwOBwO097W5yZDkIch/VF3/vs3liRwhQSfP3K2JlEFgFROapih+QwRCA6/LS3rNAUC3Su2M/nmn2t1TOSbq3L4YhcnFQyRQRZNankUW6Q9DwZOmQLr53TNnKBE9AUw35qrLh3auvlC18U0heQnEJ9UYx8O9fpGArqS0+9tbSwouxw/8uT66h+zJ7YzAMXAEm2tcpHL7QOjyVDCU4ZuCUbjiqrYWZ/CGo8yQ67sWs9Wt9KZ6apCuCek+Y2mYLLY5V6FUPvIiFgNgTxSqQEMG8B1421tkd8cAIDddcEBgTqAF2HQfhBSQDBtRB1m4o7Bh56azSb+ac7CytpMVVevMXAAAkuQnEBEnyHR3t/V0hv9ty3gX/ULLNQStkdfURoAAAAASUVORK5CYII=",
-        "url": "https://www.scrum.org/resources"
-      },
-      {
         "type": "folder",
         "addDate": 1681089441,
         "lastModified": 1705115437,
-        "title": "كتب و دورات",
+        "title": "Books",
         "children": [
           {
             "type": "link",
@@ -1046,12 +1025,6 @@
           },
           {
             "type": "link",
-            "addDate": 1705044318,
-            "title": "Login",
-            "url": "https://scribe.com/login/"
-          },
-          {
-            "type": "link",
             "addDate": 1705114196,
             "title": "Home | Davor Minchorov",
             "url": "https://davorminchorov.com/"
@@ -1280,13 +1253,6 @@
           },
           {
             "type": "link",
-            "addDate": 1686945589,
-            "title": "Adaptable-and-resilient-mindsets.pdf",
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAdUlEQVQ4y2NggID/ROD3QGzAgAP8JwRAagQFBXEaQpQB58+fx2kIUQageYc0A7AYBtXp7PyfXExlA2Bg4UIE//nz//87O7HLYzUgKgpCI/M/f0bwSXYByIAXL0hwAbINIPDlC6oXaBuI5BpAcUKimgFkYDAAACqeX/PR1icgAAAAAElFTkSuQmCC",
-            "url": "file:///C:/Users/fm-al/Downloads/Adaptable-and-resilient-mindsets.pdf"
-          },
-          {
-            "type": "link",
             "addDate": 1686945593,
             "title": "The Most Successful People Don&#39;t Set Goals -- They Do This Instead",
             "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAB/klEQVQ4jWVSwW4SURS99/L6YGAYqmEGCNKGhJCI+5qIi7qo67rV2EVNWJrYJW1/pf4BC36grR+gGJtQE+maJcgwA/OYd108HDC+zXs3OTnnnXMPlkseADAzERERbB8EYACAOI6ZGREBQDAzACBiFEWz2YyIEEFr1lozcyqVIqJ8Po+IBikMdxRF1Wr18PCV7/vMnM3lLMsCgDCYT3/PvtzeLBYLoy+MuBBiOp2WK5VutwsAN9fX/X7fKTidTqfZbD5rPfV9P51Oa62h5Lklzy2XvN2C8/jR7mg0iuP47OwTABDC/l7tfjh8fnBQcPKVcslziwIRtdYAIKWUUvq+j4iZdCaXtVzXnUwmFxfnQTAnIuNbmMt4iqJoEYaIGITBPAg/vn33837Y6/WKxaKUcm3ahAUARBQptVguAeDo6HWj0Tg9/fDm+Ni2bSHEarUyIptYmZkId4QAgMG3r1dXn/dq+3beVkolAERcezCz3JFWNsvMM38+eni4vDxn5kwmY3ayUTC/0lorpaSUcRxns5ZI4Xg8VkpJmU4wG9Nm/y/a7VarBQDt9sui69HfMLbrkrLtHBEtl8t6vX7y/mQ0+nV39yMMw1rtyffBQCmVcK/7VfJc82LmIAgShGVZUsp/qmjKtxUROY6TMGmtzUKTfNYlSmZmjuP4f8ptNAD8AdIdEAkKnPBwAAAAAElFTkSuQmCC",
@@ -1312,20 +1278,6 @@
             "title": "What Are the Benefits of a Learning Orientation? | Psychology Today",
             "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABL0lEQVQ4jZVSPUsDQRScu9t0dmnkrlLIFWlstNJfYOlP8DdY+xu0F7GwsoqtRAQtLKyE2AgGFWJINGo0yYU7943F3scmIHKPZRnezjBvHuts749QphTJsoIUbdQrqzWPRH/IxnW8XldrNfX8JqHvXbaS89skFehMEQbuypIy+OVdB1U3DLww8AD4VTenuSDNMY2DswjA8qJ32IyOL6YA9k4nR80opymRbCYSwOdIDBbN16EA6Ax0wQGUUCw+CBosFPMkZM4BUDgYqpNhkXRKCuccaDvsbC0A6H1oIY1CSLFWr3ShJoCTq8nNfdzu/RiqubXtQJlxaD3GD9105WZyCvlHaKbT5x38ExoAxIoomnOdmdB3T3HoVwbfOu/0v3S7m4yn2g7tbO52UKZUyc+KX69y86sDAUkCAAAAAElFTkSuQmCC",
             "url": "https://www.psychologytoday.com/us/blog/learning-work/201910/what-are-the-benefits-learning-orientation"
-          },
-          {
-            "type": "link",
-            "addDate": 1687632994,
-            "title": "Microsoft Certified: Azure Developer Associate - Certifications | Microsoft Learn",
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAQklEQVQ4jWP87if3nwEH4Nz0iLF+FwNO+UY3BkYmXJLEglEDqGAAxYCRYcl7nPHMECPI+H8n7nTA6D6aDgaHARQDAKgRDRsLiHU6AAAAAElFTkSuQmCC",
-            "url": "https://learn.microsoft.com/en-us/certifications/azure-developer/?tab=tab-learning-paths"
-          },
-          {
-            "type": "link",
-            "addDate": 1687697856,
-            "title": "ITIL-4-Foundation Exam Dumps | Which statement about outcomes is CORRECT?",
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACFklEQVQ4jXWSPW4UQRCFv+np2T+vwQhhaRNwQOrMiUXERRBwFkLuAAGn4BJOLHkDomVtozG7sr0/np/uegQzu94Av1ZJLXXXq1f1CknJJs7Pz9+v12v9L5bLpfI818XFxbfdHGaz2fbTbDbTUwghqCxLjcdjTSaTLUmyWCz081fB9K7iwFd8eHdEVdXM7xbsIsYIQP7nkk6WYWbfj4+PP3uA6W3F9LaEofEUnHOYGS9eHnKwv8dqtfx4dnb2wwMYIkjcFQGANHUMBz2cSyEBiw2xEBJkWUan22M8HjsPIIFJmNTKNRarB7IsIwGqqkZgJpyZOHi+b5n3xBjZKnAOsjRpK7WQEGACgWv4EwAnIBAagihRBGOdRCQhacuyuUq0b2AGMhGKgJdENFGbEdsPqEm4vr4i8ymSyPOc4XDIal3y+s0R3nsmk8kzr1bBJpoDBqRpik9ThsM9RqPRoypEDJHT09OvHkEwo45GMMPagTZKEnq9HnUdqarF1oUNQgRviGBNcjQhe+x3sDfg1eFh27e2bm1mU5QVXoK4U1USSeIY9PuUhZGmnrKseCgKzESMRtbp0u12cWmKwyCaWNdG4hrLEufo93v4doDRImbaRgiRGEWMwhvw6WTEsop0iMzn8x27ms3sdLqkaYdowuxx6czAT6e/v9R17RKDGriE1gO4v1+c3OT5W2vnYyZMiYlmOWZ/b67+ARbw6ivXuyeBAAAAAElFTkSuQmCC",
-            "url": "https://www.freecram.net/question/ITIL.ITIL-4-Foundation.v2021-05-16.q131/which-statement-about-outcomes-is-correct"
           },
           {
             "type": "link",
